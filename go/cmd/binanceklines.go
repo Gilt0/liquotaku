@@ -94,7 +94,7 @@ func worker(wg *sync.WaitGroup, folder, symbol, date string) {
 }
 
 func main() {
-	folder := flag.String("folder", "data/csv", "Output folder for CSV files")
+	folder := flag.String("folder", "data/volumes", "Output folder for CSV files")
 	symbol := flag.String("symbol", "BTCUSDT", "Ticker symbol")
 	startDate := flag.String("start", "20200101", "Start date in format YYYYMMDD")
 	endDate := flag.String("end", "20200101", "End date in format YYYYMMDD")
