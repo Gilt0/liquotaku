@@ -72,7 +72,7 @@ func worker(wg *sync.WaitGroup, folder, symbol, date string) {
 
 	// Splitting the 24 hours into two 12-hour intervals
 	for i := 0; i < 2; i++ {
-		data, err := getBinanceData(symbol, "1m", startTime.Unix()*1000, endTime.Unix()*1000)
+		data, err := getBinanceData(symbol, "30m", startTime.Unix()*1000, endTime.Unix()*1000)
 		if err != nil {
 			log.Printf("Error fetching data for %s: %v", date, err)
 			return
