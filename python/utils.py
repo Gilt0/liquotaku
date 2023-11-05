@@ -46,7 +46,7 @@ def plot_profile(year='', color='grey', labels=False, ylabel=False, title=False)
         plt.xlabel('')
         plt.xticks([], [])
     if ylabel:
-        plt.ylabel('Total traded over the minute')
+        plt.ylabel('Total traded over the period')
     else:
         plt.ylabel('')
     if title:
