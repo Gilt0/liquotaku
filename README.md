@@ -1,6 +1,6 @@
 # liquotaku
 
-Link to the [Medium post](https://quantitative-modelling-for-fun.medium.com/a-physicist-view-on-ai-ii-time-series-in-finance-e868f7462d74)
+Link to the [Medium post](https://quantitative-modelling-for-fun.medium.com/a-physicist-view-on-ai-ii-time-series-in-finance-e868f7462d74).
 
 In this repo, I used go to query asynchronously the Binance API to retrieve high frequency data of traded volumes. I then used Jupyter and Keras to build Neural Networks that predicts the data well.
 
