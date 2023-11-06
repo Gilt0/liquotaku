@@ -40,13 +40,13 @@ def plot_profile(year='', color='grey', labels=False, ylabel=False, title=False)
     t = np.arange(48)
     plt.errorbar(t, profile, yerr=error, fmt='o', capsize=5, color=color, markersize=4, label=year)
     if labels:
-        plt.xlabel('minutes')
+        plt.xlabel(r'$\delta_b$')
         plt.xticks([0, 2 * 4, 2 * 8, 2 * 12, 2 * 16, 2 * 20, 2 * 24], ['00:00', '04:00', '08:00', '12:00', '16:00', '20:00', '24:00'])
     else:
         plt.xlabel('')
         plt.xticks([], [])
     if ylabel:
-        plt.ylabel('Total traded over the period')
+        plt.ylabel(r'$\sum_b <V_t>_b\cdot \delta_b$')
     else:
         plt.ylabel('')
     if title:
