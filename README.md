@@ -1,6 +1,12 @@
 # liquotaku
 
-In this repo, I used go to query asynchronously the Binance API to retrieve high frequency data of traded volumes. I then used Jupyter and Keras to build Neural Networks that predict well the data. Check the Notebook for more info!
+Link to the [Medium post](https://quantitative-modelling-for-fun.medium.com/a-physicist-view-on-ai-ii-time-series-in-finance-e868f7462d74)
+
+In this repo, I used go to query asynchronously the Binance API to retrieve high frequency data of traded volumes. I then used Jupyter and Keras to build Neural Networks that predicts the data well.
+
+<img width="855" alt="image" src="https://github.com/Gilt0/liquotaku/assets/82427864/aa790d36-09f1-4371-94fc-56c6c1e880e6">
+
+Check the Notebook for more info!
 
 ## How to get started
 
