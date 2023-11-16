@@ -4,8 +4,6 @@ Link to the [Medium post](https://quantitative-modelling-for-fun.medium.com/a-ph
 
 In this repo, I used go to query asynchronously the Binance API to retrieve high frequency data of traded volumes. I then used Jupyter and Keras to build Neural Networks that predicts the data well.
 
-<img width="855" alt="image" src="https://github.com/Gilt0/liquotaku/assets/82427864/aa790d36-09f1-4371-94fc-56c6c1e880e6">
-
 Check the Notebook for more info!
 
 ## How to get started
